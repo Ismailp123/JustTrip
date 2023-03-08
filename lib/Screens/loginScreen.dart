@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:justtrip/Screens/registrationScreen.dart';
 class LoginScreen extends StatelessWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+  static const String idScreen = "login";
 
   @override
   Widget build(BuildContext context) {
@@ -71,13 +72,15 @@ class LoginScreen extends StatelessWidget {
               TextButton(
                 child: Text(
                   "Do not have an account. Register here",
-                  style: TextStyle(fontSize: 25),
+                  style: TextStyle(fontSize: 18),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamedAndRemoveUntil(context, RegistrationScreen.idScreen, (route) => false);
+                },
                 style: TextButton.styleFrom(
-                    foregroundColor: Colors.red,
-                    elevation: 2,
-                    backgroundColor: Colors.amber),
+                    foregroundColor: Colors.black,
+                    elevation: 0,
+                    backgroundColor: Colors.white),
               ),
             ],
           ))
