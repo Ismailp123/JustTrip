@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "350841502874",
+    "project_id": "justtrip-48647",
+    "storage_bucket": "justtrip-48647.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350841502874:android:e94ba82a37c999a0e8f323",
+        "android_client_info": {
+          "package_name": "com.example.justtrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350841502874-u8urlka9q953kj95pdohjfjqu2cfpkeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNbPFCBu-4OZcs_ZwQvdF90GqMdxD1kF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350841502874-u8urlka9q953kj95pdohjfjqu2cfpkeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
